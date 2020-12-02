@@ -1,0 +1,222 @@
+.main-heading {
+  font-family: "Mrs Eaves OT";
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: rgb(0, 0, 0);
+  opacity: 0.3;
+  padding-top: 2em !important;
+  margin-left: 2em;
+  justify-content: flex-start;
+  transform: translate(0px, 0px);
+  line-height: 28.125px;
+}
+
+.lines-image {
+  width: 672.45px;
+  height: 51.47px;
+  position: absolute;
+  margin-left: -672.45px;
+  -webkit-animation: lines-image 0.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: lines-image 0.5s forwards;
+  animation-delay: 0.5s;
+}
+@-webkit-keyframes lines-image {
+  100% {
+    margin-left: 10%;
+  }
+}
+@keyframes lines-image {
+  100% {
+    margin-left: 10%;
+  }
+}
+.hide-lines-image {
+  width: 672.45px;
+  height: 51.47px;
+  position: absolute;
+  margin-left: 15%;
+  -webkit-animation: hide-lines-image 0.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: hide-lines-image 0.5s forwards;
+  animation-delay: 0s;
+}
+@-webkit-keyframes hide-lines-image {
+  100% {
+    margin-left: -672.45px;
+  }
+}
+@keyframes hide-lines-image {
+  100% {
+    margin-left: -672.45px;
+  }
+}
+
+.input-text {
+  border: none;
+  border-color: transparent;
+}
+.group {
+  margin-top: calc(50vh - 24px - 2em - 48px);
+}
+.search-field {
+  margin-left: 5%;
+}
+input::placeholder {
+  font-family: "Mrs Eaves OT";
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+input {
+  color: rgb(138, 127, 112);
+  vertical-align: middle;
+  justify-content: flex-start;
+  width: 431px;
+  transform: translate(0px, 0px);
+  line-height: 49.2188px;
+  height: 50px;
+  background: transparent;
+  font-family: "Mrs Eaves OT";
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  margin-left: 30px;
+  margin-top: -31px;
+}
+input:focus {
+  outline: none;
+}
+.wrapper {
+  position: absolute;
+  overflow: hidden;
+  width: 460px;
+  height: 550px;
+  bottom: 0;
+  right: 0;
+}
+.hide-slide {
+  position: absolute;
+  right: 0;
+  width: 460px;
+  height: 550px;
+  -webkit-animation: hide-slide 0.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: hide-slide 0.5s forwards;
+  animation-delay: 0s;
+}
+
+@-webkit-keyframes hide-slide {
+  100% {
+    right: -460px;
+  }
+}
+
+@keyframes hide-slide {
+  100% {
+    right: -460px;
+  }
+}
+.slide {
+  position: absolute;
+  right: -460px;
+  width: 460px;
+  height: 550px;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: slide 0.5s forwards;
+  animation-delay: 0.5s;
+}
+@-webkit-keyframes slide {
+  100% {
+    right: 0;
+  }
+}
+@keyframes slide {
+  100% {
+    right: 0;
+  }
+}
+.arrow {
+  font-size: 38px;
+  color: rgb(138, 127, 112);
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.page-wrapper {
+  border-radius: 9px;
+  width: 35vw;
+  height: 75vh;
+  float: right;
+  margin-right: 3em;
+}
+
+.page-slide {
+  overflow: auto;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 2px 6px 4px rgba(189, 170, 165, 0.1);
+  box-shadow: 0px 2px 6px 4px rgba(189, 170, 165, 0.1);
+  border-radius: 9px;
+  padding: 50px 60px 50px 60px;
+  width: calc(35vw - 55px - 100px);
+  height: calc(75vh - 100px);
+  position: absolute;
+  top: 100vh;
+  -webkit-animation: page-slide 1s forwards;
+  -webkit-animation-delay: 0s;
+  animation: page-slide 1s forwards;
+  animation-delay: 0s;
+}
+.page-slide:after {
+  content: " ";
+  display: block;
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+}
+
+@-webkit-keyframes page-slide {
+  100% {
+    top: calc(2em + 48px);
+    display: block;
+  }
+}
+
+@keyframes page-slide {
+  100% {
+    top: calc(2em + 48px);
+    display: block;
+  }
+}
+.text {
+  font-family: Courier;
+  letter-spacing: 0px;
+  align-items: normal;
+  font-family: Courier;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 15px;
+  opacity: 0.7;
+  box-sizing: border-box;
+}
+.p-text {
+  font-weight: 400;
+}
+.span-text {
+  font-weight: bold;
+}
+.pl-25 {
+  padding-left: 25%;
+}
+.pl-10 {
+  padding-left: 10%;
+}
+.pl-15 {
+  padding-left: 15%;
+}
+.mt-15 {
+  margin-top: 15px;
+}
